@@ -80,7 +80,7 @@ func UploadExcelAndFormatData(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, gin.H{"message": "Uploaded file, parsed it successfully.", "employees": employees})
+	c.JSON(http.StatusOK, gin.H{"message": "Uploaded file, Parsed it successfully.", "employees": employees})
 }
 
 func GetMysqlAndRedisData(c *gin.Context) {
